@@ -1,5 +1,33 @@
-title: "Il mio sito personale"
-description: "Sito creato con Jekyll e GitHub Pages"
-theme: jekyll-theme-minima
-url: "https://lo3e.github.io"
-baseurl: ""
+# Impostazioni di base del sito
+title: "Lorenzo D'Errico - Sito Personale"
+description: "Il sito personale di Lorenzo D'Errico, dottorando in intelligenza artificiale e robotica."
+baseurl: "" # Lascia vuoto se stai usando GitHub Pages senza un dominio personalizzato
+url: "https://lo3e.github.io" # L'URL del tuo sito
+
+# Tema
+theme: jekyll-theme-minimal # Sostituisci con il tema che preferisci
+# oppure, se usi un tema personalizzato:
+# remote_theme: nomeutente/nome-repo
+
+# Impostazioni di GitHub Pages
+github_username: mionome # Il tuo username su GitHub
+github_repo: nome-repo # Nome del repository del sito
+
+# Impostazioni del layout
+markdown: kramdown
+highlighter: rouge
+
+# Navigazione personalizzata (opzionale)
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Chi sono"
+    url: "/about.html"
+  - title: "Progetti"
+    url: "/projects.html"
+  - title: "Contattami"
+    url: "/contact.html"
+
+# Configurazioni opzionali
+permalink: pretty # Link in stile "pretty" (senza .html)
+paginate: 5 # Numero di post per pagina (se usi un blog)
