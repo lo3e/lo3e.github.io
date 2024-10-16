@@ -2,7 +2,7 @@
 title: "Lorenzo D'Errico - Sito Personale"
 description: "Il sito personale di Lorenzo D'Errico, dottorando in intelligenza artificiale e robotica."
 baseurl: "" # Lascia vuoto se non usi un dominio personalizzato
-url: "https://mionome.github.io" # L'URL del tuo sito
+url: "https://lo3e.github.io" # L'URL del tuo sito
 
 # Tema
 theme: jekyll-theme-minimal
