@@ -1,5 +1,5 @@
 title: "Il mio sito personale"
 description: "Sito creato con Jekyll e GitHub Pages"
-theme: jekyll-theme-slate
+theme: jekyll-theme-minima
 url: "https://lo3e.github.io"
 baseurl: ""
