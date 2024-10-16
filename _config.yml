@@ -1,30 +1,26 @@
 # Impostazioni di base del sito
 title: "Lorenzo D'Errico - Sito Personale"
 description: "Il sito personale di Lorenzo D'Errico, dottorando in intelligenza artificiale e robotica."
-baseurl: "" # Lascia vuoto se stai usando GitHub Pages senza un dominio personalizzato
-url: "https://lo3e.github.io" # L'URL del tuo sito
+baseurl: "" # Lascia vuoto se non usi un dominio personalizzato
+url: "https://mionome.github.io" # L'URL del tuo sito
 
 # Tema
-theme: jekyll-theme-minimal # Sostituisci con il tema che preferisci
-# oppure, se usi un tema personalizzato:
-# remote_theme: nomeutente/nome-repo
+theme: jekyll-theme-minimal
 
-# Impostazioni di GitHub Pages
-github_username: mionome # Il tuo username su GitHub
-github_repo: nome-repo # Nome del repository del sito
+# Navigazione personalizzata
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Chi sono"
+    url: "/about/"
+  - title: "Progetti"
+    url: "/projects/"
+  - title: "Contattami"
+    url: "/contact/"
 
-# Impostazioni del layout
+# Permalink per link più puliti
+permalink: pretty
+
+# Configurazioni aggiuntive
 markdown: kramdown
 highlighter: rouge
-
-# Configurazioni opzionali
-permalink: pretty # Link in stile "pretty" (senza .html)
-
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">Chi sono</a></li>
-    <li><a href="/projects/">Progetti</a></li>
-    <li><a href="/contact/">Contattami</a></li>
-  </ul>
-</nav>
