@@ -17,17 +17,14 @@ github_repo: nome-repo # Nome del repository del sito
 markdown: kramdown
 highlighter: rouge
 
-# Navigazione personalizzata (opzionale)
-nav_links:
-  - title: "Home"
-    url: "/"
-  - title: "Chi sono"
-    url: "/about.html"
-  - title: "Progetti"
-    url: "/projects.html"
-  - title: "Contattami"
-    url: "/contact.html"
-
 # Configurazioni opzionali
 permalink: pretty # Link in stile "pretty" (senza .html)
-paginate: 5 # Numero di post per pagina (se usi un blog)
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">Chi sono</a></li>
+    <li><a href="/projects/">Progetti</a></li>
+    <li><a href="/contact/">Contattami</a></li>
+  </ul>
+</nav>
