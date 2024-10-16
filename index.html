@@ -3,44 +3,24 @@ layout: default
 title: Home
 ---
 
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lorenzo D'Errico - Sito Personale</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-    }
-    .container {
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #fff;
-    }
-    h1, p {
-      text-align: center;
-    }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
-      margin: 10px;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Ciao, sono Lorenzo D'Errico</h1>
-    <p>Sono un dottorando in intelligenza artificiale e robotica.</p>
-    <a href="about.html" class="button">Scopri di più su di me</a>
-    <a href="projects.html" class="button">Progetti Recenti</a>
-    <a href="contact.html" class="button">Contattami</a>
-  </div>
-</body>
-</html>
+<div class="home">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+
+  <section class="introduction">
+    <h2>Benvenuti nel mio sito!</h2>
+    <p>
+      Sono {{ site.author.name }}, un dottorando in intelligenza artificiale e robotica. In questo sito potrete scoprire di più su di me, i miei progetti e come contattarmi.
+    </p>
+  </section>
+
+  <section class="links">
+    <h2>Esplora il sito</h2>
+    <ul>
+      <li><a href="/about/">Chi sono</a></li>
+      <li><a href="/projects/">Progetti</a></li>
+      <li><a href="/contact/">Contattami</a></li>
+    </ul>
+  </section>
+</div>
+
