@@ -1,4 +1,6 @@
 # Impostazioni di base del sito
+author:
+  name: "Lorenzo D'Errico"
 title: "Lorenzo D'Errico - Sito Personale"
 description: "Il sito personale di Lorenzo D'Errico, dottorando in intelligenza artificiale e robotica."
 baseurl: "" # Lascia vuoto se non usi un dominio personalizzato
