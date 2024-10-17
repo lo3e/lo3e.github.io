@@ -1,8 +1,6 @@
 # Impostazioni di base del sito
-author:
-  name: "Lorenzo D'Errico"
-title: "Lorenzo D'Errico - Sito Personale"
-description: "Il sito personale di Lorenzo D'Errico, dottorando in intelligenza artificiale e robotica."
+title: "Hi, I'm Lorenzo D'Errico"
+description: "Ph.D. Student in Artificial Intelligence @ Federico II"
 baseurl: "" # Lascia vuoto se non usi un dominio personalizzato
 url: "https://lo3e.github.io" # L'URL del tuo sito
 
@@ -13,24 +11,12 @@ theme: jekyll-theme-minimal
 nav_links:
   - title: "Home"
     url: "/"
-  - title: "Chi sono"
+  - title: "About me"
     url: "/about/"
-  - title: "Progetti"
+  - title: "Projects"
     url: "/projects/"
-  - title: "Contattami"
+  - title: "Contact me"
     url: "/contact/"
 
 # Permalink per link più puliti
 permalink: pretty
-
-# Configurazioni aggiuntive
-markdown: kramdown
-highlighter: rouge
-
-# Layout predefinito
-defaults:
-  - scope:
-      path: ""
-      type: "*"
-    values:
-      layout: "default"
