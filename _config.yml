@@ -7,16 +7,5 @@ url: "https://lo3e.github.io" # L'URL del tuo sito
 # Tema
 theme: jekyll-theme-minimal
 
-# Navigazione personalizzata
-nav_links:
-  - title: "Home"
-    url: "/"
-  - title: "About me"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Contact me"
-    url: "/contact/"
-
 # Permalink per link più puliti
 permalink: pretty
